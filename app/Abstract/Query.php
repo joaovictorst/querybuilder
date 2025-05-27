@@ -55,7 +55,6 @@ abstract class Query
         return $this;
     }
 
-
     protected function storeParameter(string $name, mixed $value): void
     {
         $this->parameters[$name] = Utils::formatValue($value);
